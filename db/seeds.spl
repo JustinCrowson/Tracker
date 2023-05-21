@@ -1,0 +1,23 @@
+INSERT INTO department
+    (name)
+    VALUES
+    ('engineering'),
+    ('finace'),
+   ('finace'),
+   ('legal');
+
+   INSERT INTO role
+   (title, department-id)
+   VALUES
+   ('software engineer', 1),
+   ('account manager', 2),
+   ('accountant', 3),
+   ('lawyer', 4);
+
+   INSERT INTO employee
+   (first_name, last_name, role_id)
+   VALUES
+   ('Justin', Crowson', 1),
+   ('Amy', Crowson', 2),
+   ('Tracy', Shelly', 3),
+   ('Cody', Hamm', 4);
